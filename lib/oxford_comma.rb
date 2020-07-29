@@ -1,5 +1,6 @@
 def oxford_comma(array)
   array.each do |element|
-    array.size == 1 ? array.join("") : 
+    if array.size == 1 do
+      array.join("") 
   end
 end
