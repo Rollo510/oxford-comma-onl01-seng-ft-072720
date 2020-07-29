@@ -7,7 +7,7 @@ def oxford_comma(array)
     elsif array.length == 2
     new_string = array.join(" and ")
     elsif array.length >= 3
-    new_string = array[0..-2].join(', ') + " and " + array[-1] if array.length > 1
+    new_string = array[0..-2].join(', ') + " and " + array[-1] if array.length > 2
     end
   end
   return new_string
