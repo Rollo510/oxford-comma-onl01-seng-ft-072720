@@ -1,7 +1,7 @@
 def oxford_comma(array)
   new_string = ""
   array.each do |element|
-  if element.size == 1
+  if array.size == 1
     new_string.push(element)
     end
   end
