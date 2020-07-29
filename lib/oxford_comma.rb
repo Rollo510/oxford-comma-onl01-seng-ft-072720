@@ -6,7 +6,8 @@ def oxford_comma(array)
     new_string = array.join("")
     elsif array.length == 2
     new_string = array.join(" and ")
-    
+    elsif array.length == 3
+    new_string = array.join("#{element[0]}", "#{element[1]}", "#{element[2]}")
     end
   end
   return new_string
