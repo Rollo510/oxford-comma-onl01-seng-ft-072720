@@ -3,4 +3,3 @@ def oxford_comma(array)
     array.size == 1 ? array.join("") : array.join("")
   end
 end
-end
